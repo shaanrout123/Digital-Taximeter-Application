@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\shaan\\Downloads\\unirest-java-1.4.9.jar",
+            "c:\\Users\\shaan\\Downloads\\json-20230618.jar"
+        ],
+        "exclude": [
+            "lib/json-20230618.jar",
+            "lib/json-20160810.jar"
+        ]
+    }
+}

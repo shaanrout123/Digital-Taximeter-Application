@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Debug TaxiMeter",
+            "request": "launch",
+            "mainClass": "TaxiMeter",
+            "classPaths": [
+                "C:/Users/shaan/OneDrive/Documents/METERTAXI/DigitalTaxiMeter/bin",
+                "C:/Users/shaan/OneDrive/Documents/METERTAXI/DigitalTaxiMeter/lib/json-20230618.jar",
+                "C:/Users/shaan/OneDrive/Documents/METERTAXI/DigitalTaxiMeter/lib/mysql-connector-j-8.0.33.jar"
+            ]
+        }
+    ]
+}
