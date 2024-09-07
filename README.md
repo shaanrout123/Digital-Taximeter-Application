@@ -1,18 +1,25 @@
-## Getting Started
+# Digital Taxi Meter
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
 
-## Folder Structure
+The **Digital Taxi Meter** is a Java Swing-based application designed to calculate taxi fares, store records, and provide a graphical user interface for various functionalities related to fare calculation and record management. It includes features for calculating fare based on distance and tax, searching, editing, and deleting records, and customizing UI fonts and sizes.
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Fare Calculation**: Calculates fare based on distance, base rate, and tax percentage.
+- **Database Integration**: Stores fare records in a MySQL database, supports searching, editing, and deleting records.
+- **Logging**: Logs calculation results to a CSV file.
+- **Real-Time Updates**: Displays current time and updates distance traveled today and overall.
+- **UI Customization**: Allows users to choose font type and size for the interface.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Setup
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. **Prerequisites**:
+   - Java Development Kit (JDK) 8 or higher
+   - MySQL Database Server
+   - MySQL Workbench (optional for database management)
 
-## Dependency Management
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/digital-taximeter.git
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
