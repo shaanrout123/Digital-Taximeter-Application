@@ -1,4 +1,4 @@
-# Digital Taxi Meter
+# Digital Taximeter Application
 
 ## Overview
 
